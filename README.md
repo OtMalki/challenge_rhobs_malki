@@ -1,4 +1,3 @@
-```markdown
 # RHOBS Challenge - Malki's App
 
 ## Overview
