@@ -1,38 +1,87 @@
 .App {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3498db; 
   text-align: center;
+  margin-top: 0; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filter-section,
+.select-section,
+.info-section {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="checkbox"] {
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="range"] {
+  width: 100%;
+  background-color: #ecf0f1; /* Added background color to range input */
+  border: 1px solid #bdc3c7; /* Added border color to range input */
+  border-radius: 4px;
+  padding: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ecf0f1; /* Added background color to select input */
+}
+
+.info-body {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Added a hover effect for better interactivity */
+.info-body:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.info-message {
+  font-style: italic;
+  color: #888;
+}
+
+/* Added styles for the main content container */
+.main-content {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Added styles for header */
+header {
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
 }
